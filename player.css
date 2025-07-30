@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+body{
+    background-image:url(../new.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.toolbar{
+    height: 6rem;
+    width: 100%;
+    background-image: url(../bluemusic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.toolbar>button{
+    height: 2rem;
+    width: 4.5rem;
+    background-color: aqua;
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: green;
+}
+
+.user>.usersign>img{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+}
+.user>.usersign{
+    height: 36rem;
+    width: 35rem;
+    border:none;
+    margin-left: 5rem;
+}
+.user{
+    height: 90rem;
+    width: 69rem;
+    display: flex;
+    border:none;
+}
+
+.user>.music{
+    
+    height: 88rem;
+    width: 35rem;
+    border: none;
+}
+
+.user>.music>video{
+  padding-top: 2rem;
+    height: 20rem;
+    width: 30rem;   
+}
+
+.usersign>P{
+    font-size: 1.5rem;
+    color: purple;
+    font-family: sans-serif;
+}
